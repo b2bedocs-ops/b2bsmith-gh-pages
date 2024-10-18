@@ -8,7 +8,7 @@ This is a Next.js template which can be deployed to GitHub Pages as a static sit
 ## Deploying to GitHub Pages
 
 1.  Create a new public GitHub repository
-1.  Edit `next.config.js` to match your GitHub repository name:
+1.  Edit `next.config.ts` to match your GitHub repository name:
     - Given the pattern `https://github.com/<user>/<repo>`, update your `basePath` config to the name of your repo (e.g. `/repo`)
 1.  Push the starter code to the `main` branch
 1.  Run the `deploy` script (e.g. `npm run deploy`) to create the `gh-pages` branch
