@@ -9,7 +9,7 @@ interface Message {
 }
 
 export default function Home() {
-  const [messages, setMessages] = useState<Message>([
+  const [messages, setMessages] = useState<Message[]>([
     { id: 1, text: "Hello! Welcome to B2B eDocs. We streamline the transmission of your supply chain and medical documents, taking your data workflows to the next level with end-to-end automation.", sender: "bot" },
   ]);
   const [input, setInput] = useState("");
@@ -43,7 +43,7 @@ export default function Home() {
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", width: "100vw", overflow: "hidden" }}>
       
       {/* Header Nav -> Styled with Deep Navy Background */}
-      <header style={{ backgroundColor: "var(--brand-navy)", padding: "16px 24px", display: "flex", justifyContent: "between", alignItems: "center", justifyContent: "space-between", boxShadow: "0 2px 4px rgba(0,0,0,0.1)", zIndex: 10 }}>
+      <header style={{ backgroundColor: "var(--brand-navy)", padding: "16px 24px", display: "flex", alignItems: "center", justifyContent: "space-between", boxShadow: "0 2px 4px rgba(0,0,0,0.1)", zIndex: 10 }}>
         <div>
           <span style={{ fontWeight: "bold", fontSize: "1.25rem", letterSpacing: "-0.025em", color: "var(--brand-blue)" }}>
             b2bEdocs
@@ -57,7 +57,7 @@ export default function Home() {
       </header>
 
       {/* Main Content Area - Centers the Chat Box */}
-      <main style={{ flex: 1, display: "flex", alignItems: "center", justifyvalue: "center", justifyContent: "center", padding: "16px", minHeight: 0 }}>
+      <main style={{ flex: 1, display: "flex", alignItems: "center", justifyItems: "center", justifyContent: "center", padding: "16px", minHeight: 0 }}>
         
         {/* Chat Box Container */}
         <div style={{ width: "100%", maxWidth: "512px", height: "550px", backgroundColor: "#ffffff", borderRadius: "16px", boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)", border: "1px solid rgba(90, 162, 255, 0.2)", display: "flex", flexDirection: "column", overflow: "hidden" }}>
