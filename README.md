@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# b2bsmith.github.io
-=======
 # Deploy Next.js to GitHub Pages
 
 This is a Next.js template which can be deployed to GitHub Pages as a static site.
@@ -28,4 +25,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
->>>>>>> ec82666 (Init)
